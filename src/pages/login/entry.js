@@ -1,1 +1,4 @@
-alert(2)
+let test = () => {
+	alert(2)
+}
+test()

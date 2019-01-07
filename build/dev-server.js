@@ -17,6 +17,7 @@ let devMiddleware = require('webpack-dev-middleware')(compiler, {
 	}
 });
 
+
 let hotMiddleware = require('webpack-hot-middleware')(compiler);
 
 compiler.plugin('compilation', function (compilation) {

@@ -11,6 +11,8 @@ exports.getVersion = () => {
 		hours   = fix(date.getHours()),
 		minutes = fix(date.getMinutes()),
 		seconds = fix(date.getSeconds());
+
+	return year + month + day + hours + minutes + seconds;
 }
 
 //多页配置
