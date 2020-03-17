@@ -4,7 +4,7 @@ let path     = require('path'),
 
 
 
-alert(1);
+alert(1)
 module.exports = {
 	build     : {
 		assetsRoot         : path.resolve(__dirname, '../dist/student'),
